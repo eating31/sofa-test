@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sofa-test/static/css/main.1e379e2f.css",
+    "main.js": "/sofa-test/static/js/main.6bf06b64.js",
+    "static/media/logo.png": "/sofa-test/static/media/logo.686b6f86eead2bde8d61.png",
+    "static/media/trunkIcon.png": "/sofa-test/static/media/trunkIcon.ba09d214cc8924259656.png",
+    "static/media/sofaIcon.png": "/sofa-test/static/media/sofaIcon.75f5e0944c19a409b416.png",
+    "static/media/Banner1.png": "/sofa-test/static/media/Banner1.34a26ecb7f376f4656f6.png",
+    "index.html": "/sofa-test/index.html",
+    "main.1e379e2f.css.map": "/sofa-test/static/css/main.1e379e2f.css.map",
+    "main.6bf06b64.js.map": "/sofa-test/static/js/main.6bf06b64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e379e2f.css",
+    "static/js/main.6bf06b64.js"
+  ]
+}
