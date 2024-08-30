@@ -1,0 +1,54 @@
+/* App.css */
+.app-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .header-content {
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .header-logo {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .header-divider {
+    border-top: 2px solid #4EBEC6;
+    margin: 16px 0;
+    position: relative;
+  }
+  
+  .header-icon {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: -46px;
+    right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 24px;
+    }
+  
+    .header-logo {
+      max-width: 100%;
+    }
+  
+    .header-icon {
+      width: 36px;
+      height: 36px;
+      top: -30px;
+    }
+  }
+  

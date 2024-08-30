@@ -1,0 +1,73 @@
+/* detailTracking.css */
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+/* .ant-card-head-title {
+  color: #fff;
+} */
+
+/* .info-card { 未使用的 CSS 
+  margin-bottom: 24px;
+} */
+
+/* .custom-tabs .ant-tabs-nav .ant-tabs-tab { 未使用的 CSS 
+  color: #4EBEC6;
+}
+
+.custom-tabs .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #4EBEC6;
+  font-weight: bold;
+}
+
+.custom-tabs .ant-tabs-nav .ant-tabs-ink-bar {
+  background: #4EBEC6;
+} */
+
+/* .large-descriptions .ant-descriptions-item-label, 未使用的 CSS 
+.large-descriptions .ant-descriptions-item-content {
+  font-size: 16px; 
+}
+
+.large-descriptions .ant-descriptions-header {
+  font-size: 20px; 
+} */
+
+/* RWD =>寬度768px調整樣式 */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 24px;
+  }
+
+  .header-logo {
+    max-width: 100%;
+  }
+
+  .header-icon {
+    width: 36px;
+    height: 36px;
+    top: -30px;
+  }
+  .custom-description-label .ant-descriptions-item-label {
+    min-width: 4em; /* 設置最小寬度為四個字 */
+  }
+}
+
+/* 展示照片的獨立樣式 */
+.preview-modal .ant-modal-content {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.preview-modal .ant-modal-body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.ant-tabs-tab:hover .ant-tabs-tab-btn {
+  color: #4ebec6 !important;
+}
