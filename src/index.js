@@ -38,7 +38,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route key="HomePage" path="/admin" element={<Home />} />
+        <Route key="HomePage" path="/" element={<Home />} />
         <Route key="orderCreate" path="/admin/Order/OrderCreate" element={<OrderCreateWithRouter />} />
         <Route key="orderList" path="/admin/Order/OrderList" element={<OrderListWithRouter />} />
         <Route key="orderUpdate" path="/admin/Order/OrderUpdate/:orderNum" element={<OrderUpdateWithRouter />} />
